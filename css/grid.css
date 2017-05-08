@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+}
+.g__wrapper {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.g__container {
+	display: block;
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 16px;
+	
+	color: rgba(242, 242, 242, 1);
+}
+
+.g__containerheader {
+	display: block;
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 0px;
+	
+	color: rgba(242, 242, 242, 1);
+}
+
+.g__row {
+	display: block;
+	padding: 0px;
+	margin: 0 -16px;
+	overflow: hidden;
+	
+}
+
+.g__rowheader {
+	display: block;
+	padding: 0px;
+	margin: 0 0px;
+	overflow: hidden;
+	
+}
+
+
+
+.g__wrapper::after, .g__container::after, .g__row::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+.g__column {
+	position: relative;
+	float: left;
+	padding: 0 16px;
+	overflow: hidden;
+}
+
+.offset {
+	height: 6.5rem;
+}
+
+.g__columnheader {
+	position: relative;
+	float: left;
+	padding: 0 0px 0 0px;
+	overflow: hidden;
+	
+}
+.g__column-12 { 
+	width: 100%; 
+
+}
+/*grid voor footer*/
+.g__column-121 { 
+	width: 110%;
+	background-color: #383A3C;
+	margin-left: -5%;
+}
+
+/*grid voor header die breder komt*/
+.g__column-122 {
+	width: 110%;
+	position: fixed;
+	max-height: 130px;
+	border-bottom: 0.25px solid #BFB5A4;
+	background-color: white;
+	margin-top: -10px;
+	margin-left: -5%;
+	z-index: 5;
+}
+
+
+.g__column-11 { width: 91.6667%; }
+.g__column-10 { width: 83.3333%; }
+.g__column-09 { width: 75%; }
+.g__column-08 { width: 66.6667%; }
+.g__column-07 { width: 58.3333%; }
+.g__column-06 { width: 50%; }
+.g__column-05 { width: 41.6667%; }
+.g__column-04 { width: 33.3333%; }
+.g__column-03 { width: 25%; }
+.g__column-02 { width: 16.6667%; }
+.g__column-01 { width: 8.3333%; }
+
+.card {
+	overflow: hidden;
+	margin-top: 16px;
+	background: rgba(254, 254, 254, 1);
+}
+
+.cardheader {
+	height: 110px;
+}
+@media only screen and (max-width: 1400px) {
+	.offset {
+		height: 14.5rem;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.g__column-11 { width: 100%; }
+	.g__column-10 { width: 100%; }
+	.g__column-09 { width: 100%; }
+	.g__column-08 { width: 100%; }
+	.g__column-07 { width: 100%; }
+	.g__column-06 { width: 100%; }
+	.g__column-05 { width: 100%; }
+	.g__column-04 { width: 100%; }
+	.g__column-03 { width: 100%; }
+	.g__column-02 { width: 100%; }
+	.g__column-01 { width: 100%; }
+	.offset { 
+		height: 0.9rem;
+	}
+   }
+
+   @media only screen and (max-width: 414px) {
+	   .offset {
+		height: 4.5rem;
+	}
+   }

@@ -1,0 +1,21 @@
+ ul.nav1 {
+    padding: 2%;
+    color: grey;
+    margin: 0px auto 0px auto;
+    border-top: 0.25px solid grey;
+    text-align: center;
+    }
+
+li.homeheader {
+    display: inline;
+    margin: 0px 2%;
+    }
+
+a.homeheader {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover.homeheader {
+  color: gold;
+  }

@@ -1,3 +1,15 @@
+/*
 ;(function() {
-  alert('Welcome to the GDM Web Template developed by drdynscript!');
+  alert('Welcome to RavenGraphics');
 })();
+*/
+
+[
+    {
+        "featureType": "administrative",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": "-100"
+            }
+        ]

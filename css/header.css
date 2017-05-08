@@ -1,0 +1,47 @@
+ul.nav1 {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+}
+
+li.basicheader {
+        display: inline;
+        margin-left: 5%;
+}
+
+.cardheader img {
+        float: left;
+        width: 200px;
+        height: auto;
+        margin-left: 3%;
+        padding: 20px;
+}
+
+nav {
+        margin-top: 50px;
+        float: right;
+        margin-right: 7%;
+}
+
+li.basicheader > a {
+  color: grey;
+  text-decoration: none;
+}
+
+
+li.basicheader > a:hover {
+  color: gold;
+}
+
+
+
+/*Responsive*/
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 414px) {
+        .cardheader img {
+        width: 100px;
+    }
+}

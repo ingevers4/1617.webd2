@@ -1,0 +1,83 @@
+#form {
+     margin: 0px;
+     padding-left: 5%;
+     padding-right: 5%;
+     color: #777;
+     background: white;
+     width: 100%;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+    float: left;
+    top: -120px;
+    z-index:0;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h1 {
+  padding-bottom: 10%;
+  padding-top: 7%;
+  margin: 0%;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+input {
+  width: 60%;
+}
+
+#contact textarea {
+  width: 80%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 5px;
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+
+@media only screen and (max-width: 980px) {
+  
+  }
+
+  @media only screen and (max-width: 680px) {
+  }
+
+  @media only screen and (max-width: 375px) {
+  .container{
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+    float: left;
+    top: -120px;
+    z-index:0;
+  }
+  }
+
+  @media only screen and (max-width: 320px) {
+  .container{
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+    float: left;
+    top: -120px;
+    z-index:0;
+  }
+  }

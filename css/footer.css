@@ -1,0 +1,45 @@
+.footercontainer {
+  width: 100%;
+  background-color: #383A3C;
+  padding-bottom: 20%;
+  
+}
+
+.footerbox1 {
+  width: 100%;
+}
+
+.footerbox1 p {
+  width: 50%;
+  margin: 1px;
+  margin-left: 10%;
+  color: #F4BD57 !important;
+  line-height: 15px;
+  font-size: 0.8em;
+}
+
+.footerbox1 h1 {
+  color: #F4BD57 !important;
+  margin: 0px 10%; 
+  text-align: left;
+  padding-top: 15%;
+  padding-bottom: 10%;
+}
+
+.footericons {
+  width: 50%;
+}
+
+.twittericon {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  width: 20%;
+}
+
+.facebookicon {
+  width: 12%;
+  position: absolute;
+  top: 52%;
+  left: 61.25%;
+}
