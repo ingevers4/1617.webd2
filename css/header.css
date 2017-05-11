@@ -1,12 +1,34 @@
+.header_wrapper {
+        background-color: white;
+        border-bottom: 0.25px solid #BFB5A4;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right:0;
+        z-index: 999;
+}
+
+nav {
+        margin-top: 50px;
+        float: right;
+        margin-right: 7%;
+}
+
 ul.nav1 {
         list-style: none;
         margin: 0px;
         padding: 0px;
 }
 
+ul.nav1:after {
+        content:"";
+        display:table;
+        height: 0;
+        clear:both;
+}
+
 li.basicheader {
-        display: inline;
-        margin-left: 5%;
+        float:left;
 }
 
 .cardheader img {
@@ -17,15 +39,10 @@ li.basicheader {
         padding: 20px;
 }
 
-nav {
-        margin-top: 50px;
-        float: right;
-        margin-right: 7%;
-}
-
 li.basicheader > a {
   color: grey;
   text-decoration: none;
+  padding: 0 10px;
 }
 
 

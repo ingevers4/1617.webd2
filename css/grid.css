@@ -71,14 +71,14 @@
 }
 /*grid voor footer*/
 .g__column-121 { 
-	width: 110%;
+	width: 100%;
 	background-color: #383A3C;
 	margin-left: -5%;
 }
 
 /*grid voor header die breder komt*/
 .g__column-122 {
-	width: 110%;
+	width: 100%;
 	position: fixed;
 	max-height: 130px;
 	border-bottom: 0.25px solid #BFB5A4;

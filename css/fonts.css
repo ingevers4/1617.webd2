@@ -1,1 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+@font-face {
+    font-family: "LithosPro";
+    src: url(LithosPro-Regular.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "LithosPro";
+    src: url(LithosPro-Black.otf);
+    font-weight: bold;
+}
+
+
