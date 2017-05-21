@@ -103,6 +103,9 @@
 
 .card {
 	overflow: hidden;
+	position:relative;
+	float: left;
+	width: 100%;
 	margin-top: 16px;
 	background: rgba(254, 254, 254, 1);
 }
@@ -112,7 +115,7 @@
 }
 @media only screen and (max-width: 1400px) {
 	.offset {
-		height: 14.5rem;
+		height: 9.5rem;
 	}
 }
 
@@ -138,3 +141,11 @@
 		height: 4.5rem;
 	}
    }
+
+   @media only screen and (max-width: 320px) {
+	   .offset {
+		height: 0.5rem;
+	}
+   }
+
+

@@ -1,0 +1,66 @@
+.colorsamples {
+    width: 80%;
+    margin: 0 auto 20px ;
+    height: 70px;
+
+}
+
+.yellow {
+    background-color: #FEB957;
+    margin: 1%;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    float: left;
+}
+.blue {
+    background-color:#225272;
+    margin: 1%;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    float: left;
+        
+}
+.brown {
+    background-color:#C6883F;
+    margin: 1%;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    float: left;
+}
+
+.black {
+    background-color:#383A3C;
+    margin: 1%;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    float: left;
+}
+
+.lightbrown {
+    background-color: #BFB5A4;
+    margin: 1%;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    float: left;
+}
+
+.lightbeige {
+    background-color: #F2F0ED;
+    margin: 1%;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    float: left;
+}
+
+.colorsamples:after {
+        content:"";
+        display:table;
+        height: 0;
+        clear:both;
+}

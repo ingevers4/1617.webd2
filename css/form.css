@@ -5,6 +5,7 @@
      color: #777;
      background: white;
      width: 100%;
+
 }
 
 .container {
@@ -29,6 +30,10 @@
   margin: 0%;
 }
 
+#verzenden {
+  font-family: "Raleway";
+}
+
 fieldset {
   border: medium none !important;
   margin: 0 0 10px;
@@ -39,9 +44,11 @@ fieldset {
 
 input {
   width: 60%;
+  font-family: "Raleway";
 }
 
 #contact textarea {
+  font-family: "Raleway";
   width: 80%;
   border: 1px solid #ccc;
   background: #FFF;

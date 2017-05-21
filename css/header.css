@@ -55,10 +55,85 @@ li.basicheader > a:hover {
 /*Responsive*/
 
 @media only screen and (max-width: 1024px) {
-}
 
+}
+@media only screen and (max-width: 650px) {
+        .cardheader img {
+        float: left;
+        width: 150px;
+        height: auto;
+        margin-left: 3%;
+        padding: 15px;
+        }
+nav {
+        margin-top: 33px;
+        margin-bottom: 12px;
+        float: right;
+        margin-right: 0%;
+        }
+
+li.basicheader > a {
+  color: grey;
+  text-decoration: none;
+  padding: 0 4px;
+}
+.cardheader{
+        height: 15px;
+}
+}
 @media only screen and (max-width: 414px) {
         .cardheader img {
-        width: 100px;
-    }
+        float: left;
+        width: 90px;
+        height: auto;
+        margin-left: 3%;
+        padding: 10px;
+        }
+nav {
+        margin-top: 25px;
+        margin-bottom: 10px;
+        float: right;
+        margin-right: 0%;
+        }
+
+li.basicheader > a {
+  color: grey;
+  text-decoration: none;
+  padding: 0 4px;
+}
+.cardheader{
+        height: 10px;
+}
+.offset {
+        height: 0.4rem;
+}
+}
+@media only screen and (max-width: 320px) {
+        
+    .cardheader img {
+        float: left;
+        width: 70px;
+        height: auto;
+        margin-left: 2%;
+        padding: 10px;
+}
+nav {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        float: right;
+        margin-right: 0%;
+}
+
+li.basicheader > a {
+  color: grey;
+  text-decoration: none;
+  padding: 0 4px;
+}
+.cardheader{
+        height: 10px;
+}
+.offset {
+        height: 0.4rem;
+}
+    
 }

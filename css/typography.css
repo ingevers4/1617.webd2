@@ -22,9 +22,9 @@ h1 {
   font-style: black;
   display: block;
   color: black;
-  margin: 9% auto 0px auto;
+  margin: 13% auto 0px auto;
   text-align: center;
-  padding-top: 4%;
+  padding-top: 8%;
   padding-bottom: 3%;
   
 }
@@ -75,32 +75,33 @@ h2.uitvoerheader {
 
 .tekstinge h3 {
     color: #F4BD57;
-    padding-bottom: 2%;
 }
 
 .tekstarne h3 {
-    color: #225272;
-    padding-bottom: 2%;
+    color: #225272; 
 }
 
 .tekstherlinde h3 {
     color: #C6883F;
-    padding-bottom: 2%;
 }
 
 .tekstinge p {
   margin: 0%;
-  line-height: 0.1em;
+  line-height: 1.48em;
 }
 .tekstarne p {
   margin: 0%;
-  line-height: 0.1em;
+  line-height: 1.48em;
 }
 .tekstherlinde p {
   margin: 0%;
-  line-height: 0.1em;
+  line-height: 1.48em;
 }
 
+h5{
+  font-family: 'Satisfy', sans-serif;
+  text-shadow: 4px 4px 4px;
+}
 
 
 
@@ -166,6 +167,9 @@ xxlg (min-width: 90rem) {1440px -> desktop */
    }
    h1 {
      font-size: 1.3em;
+   }
+   h3 {
+     font-size: 12px;
    }
    li.basicheader {
      font-size: 80%;
@@ -273,7 +277,7 @@ xxlg (min-width: 90rem) {1440px -> desktop */
 
 @media only screen and (max-width: 320px) {
    p {
-     font-size: 8%;
+     font-size: 9px !important;
    }
 
    li.homeheader {
@@ -281,11 +285,14 @@ xxlg (min-width: 90rem) {1440px -> desktop */
    }
 
     li.basicheader {
-     font-size: 15%;
+     font-size: 5%;
      }
 
    h1 {
-     font-size: 60%;
+     font-size: 70%;
+     margin: 13% auto 0px auto;
+     padding-top: 10%;
+     padding-bottom: 6%;
    }
    h2 {
      font-size: 50%;
