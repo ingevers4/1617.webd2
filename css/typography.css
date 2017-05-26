@@ -29,6 +29,11 @@ h1 {
   
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 h2 {
   font-family: 'Lithos Pro', sans-serif;
   font-style: black;

@@ -15,7 +15,7 @@
   margin: 1px;
   margin-left: 10%;
   color: #F4BD57 !important;
-  font-size: 0.8em;
+  font-size: 1.02em;
 }
 .footerbox1 h1 {
   color: #F4BD57 !important;
@@ -24,13 +24,6 @@
   padding-top: 7%;
   padding-bottom: 2%;
 }
-
-.g__wrapper > footer_wrapper{
-  border: 2px solid green;
-  margin: 0px;
-}
-
-
 
 .twittericon {
   position: absolute;
@@ -47,6 +40,23 @@
   left: 61.25%;
   z-index: 2;
 }
+
+
+.copyright {
+  width: 20%;
+  position: relative;
+  float: right;
+  padding: 3%;
+  top: -20%;
+}
+
+p.copy {
+  color:  #F4BD57!important;
+  font-size: 65%;
+}
+
+
+
 
 @media only screen and (max-width: 1441px) {
    .facebookicon{
