@@ -55,10 +55,12 @@
 	<link rel="stylesheet" media="all" href="css/buttons.css">
 	<link rel="stylesheet" media="all" href="css/footer.css">
     <link rel="stylesheet" media="all" href="css/header.css">
+    <link rel="stylesheet" media="all" href="css/homeheader.css">
     <link rel="stylesheet" media="all" href="css/form.css">
     <link rel="stylesheet" media="all" href="css/colors.css">
     <link rel="stylesheet" media="all" href="css/map.css">
     <link rel="stylesheet" media="all" href="css/icons.css">
+    <link rel="stylesheet" media="all" href="css/cards.css">
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
 </head>
@@ -68,7 +70,7 @@
 				<div class="cardheader">
                     <a href="index.html"><img class="headerimage"src="assets/icons/logoheader.png"></a>
                     <nav>
-                    <ul class="nav1">
+                    <ul class="nav2">
                         <li class="basicheader"><a class="basicheader" href="diensten.html">diensten</a></li>
                         <li class="basicheader"><a class="basicheader" href="overons.html">over ons</a></li>
                         <li class="basicheader"><a class="basicheader" href="contact.html">contact</a></li>
@@ -82,18 +84,28 @@
     <div class="g__wrapper">
         <div class="g__container">
             <div class="g__row">
-                <div class="g__column g__column-06">
-                    <div class="card">
-                        <h1>Header</h1>
-                        
-                        <div class="box1">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed efficitur massa, at euismod justo. Maecenas vel elit eu quam congue pellentesque ut id risus. Morbi hendrerit enim vitae libero pulvinar tristique et sed quam. In lobortis ante id nisi aliquet consectetur. Cras cursus id lacus in finibus. Maecenas pellentesque tempor volutpat.</p>
-                        </div>
-                        <img class="veren" src="assets/icons/veren.jpg" height="100px" alt"veren" ></img>
-                    </div><!--card-->
-                </div><!--06-->
 
-     <div class="g__column g__column-06">
+                <div class="g__column g__column-12">
+				<div class="card">
+					<picture class="card__image">
+						<img src="assets/icons/hoofdlogo.jpg" alt="RavenGraphics"/>
+					</picture>
+				</div>
+			</div><!--column 12-->
+
+			<div class="g__column g__column-12">
+				<div class="card">
+					<ul class="nav1">
+          				<li class="homeheader"><a class="homeheader" href="diensten.html">diensten</a></li>
+          				<li class="homeheader"><a class="homeheader" href="overons.html">over ons</a></li>
+          				<li class="homeheader"><a class="homeheader" href="contact.html">contact</a></li>
+          				<li class="homeheader"><a class="homeheader" href="portfolio.html">portfolio</a></li>
+        			</ul>
+
+				</div>
+			</div>	
+
+                <div class="g__column g__column-06">
                    <div class="card">
                        <h1>Color palette</h1>
                        <div class="colorsamples">
@@ -112,16 +124,97 @@
                         </div>
                     </div>
                 </div>
-    <div class="g__column g__column-06">
-                   <div class="card">
-                    <h1>Images</h1>
-                    <img class="ingestyle" src="assets/icons/fotoinge.jpg"width="160px">
-                    <img class="arnestyle" src="assets/icons/arne.jpg" width="160px">
-                    <img class="herlindestyle" src="assets/icons/herlinde.jpg" width="160px">
-                 </div>
-    </div>
 
-    <div class="g__column g__column-06">
+                <div class="g__column g__column-06">
+                    <div class="card">
+                        <h1>TextBox1</h1>
+                        
+                        <div class="box1">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed efficitur massa, at euismod justo. Maecenas vel elit eu quam congue pellentesque ut id risus. Morbi hendrerit enim vitae libero pulvinar tristique et sed quam. In lobortis ante id nisi aliquet </p>
+                        </div>
+                        <img class="veren" src="assets/icons/veren.jpg" height="100px" alt"veren" ></img>
+                    </div><!--card-->
+                </div><!--06-->
+
+
+            <div class="g__column g__column-06">
+                        <div class="card">
+                            <h1>Images</h1>
+                            <img class="ingestyle" src="assets/icons/fotoinge.jpg"width="160px">
+                            <img class="arnestyle" src="assets/icons/arne.jpg" width="160px">
+                            <img class="herlindestyle" src="assets/icons/herlinde.jpg" width="160px">
+
+                        <div class="g__column g__column-04">
+                            <div class="card">
+                            <a href="#">
+                                <picture class="card__image3">
+						            <img src="assets/icons/postergeleletter.jpg" height="200px" alt="postergeleletter">
+					            </picture></a>
+
+                                </div>
+                        </div>
+                         <div class="g__column g__column-06">
+                            <div class="card">
+                            <a href="#"><picture class="card__image1">
+						            <img src="assets/icons/webpagina.jpg" height="200px" alt="posterfoto">
+					            </picture></a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="g__column g__column-06">
+                    <div class="card">
+                        <h1>textbox 2</h1>
+                        <div class="box2">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed efficitur massa, at euismod justo. Maecenas vel elit eu
+                                </p>
+                        </div>
+                    </div><!--card-->
+            </div><!--06-->
+
+            <div class="g__column g__column-06">
+                        <h1>cards</h1>
+                        <div class="gallery">
+                        <article class="image">
+                            <a href="detailcolibri.html"><img src="assets/icons/colibri.jpg"/></a>
+                            <p>Graphics</p>
+                        </article>
+                         <article class="image">
+                                <a href="detailrobin.html"><img src="assets/icons/robin.jpg"/></a>
+                                <p>Graphics</p>
+                         </article>
+
+                         <article class="image">
+                               <img src="assets/icons/owl.jpg"/>
+                                <p>Graphics</p>
+                         </article>
+                        </div>
+            </div>
+
+            <div class="g__column g__column-04">
+                   <div class="card">
+                        <h1>icons/ buttons</h1>
+                        <picture class="card__image4">
+                        <img src="assets/icons/vogelmetkoord.jpg" width="600px">
+                         </picture>
+                         <div class="iconsstyleguide">
+                            <a href="#"><img class="twitter2" src="assets/icons/twitter-icon.svg"></a>
+							<a href="#"><img class="facebook2" src="assets/icons/facebook.svg"></a>
+                        </div>
+                        <div class="g__column g__column-12">
+                        <div class="card">
+                        <a href="portfolio.html"><img class="buttonhomepage" src="assets/icons/knop.jpg"></a>
+                        </div>
+			        </div>
+                </div>
+            </div>
+
+
+            <div class="g__column g__column-08">
                    <div class="card">
                             <div id="form">
                                 <div class="container">
@@ -148,23 +241,8 @@
                                 </div><!--form-->
                         </div><!--card-->
                     </div><!--06-->
-            <div class="g__column g__column-06">
-                   <div class="card">
-                        <h1>icons/ logo's</h1>
-                        <picture class="card__image4">
-                        <img src="assets/icons/vogelmetkoord.jpg" width="600px">
-                         </picture>
-                         <div class="iconsstyleguide">
-                            <a href="#"><img class="twittericonstyle" src="assets/icons/twitter-icon.svg"></a>
-							<a href="#"><img class="facebookiconstyle" src="assets/icons/facebook.svg"></a>
-                        </div>
-                        
 
-                </div>
-            </div>
 
-                        
-                        
         </div>
     </div>
 </div>
@@ -179,6 +257,11 @@
           						tel: 0478/352398<br>
           						e-mail: info@ravengraphics.com</p>
 						</div>
+                        <div class="icons">
+                            <a href="https://twitter.com/RavenGraphicsAG" target="_blank"><img class="twittericon" src="assets/icons/twitter-icon.svg" width="4000px"></a>
+							<a href="https://www.facebook.com/pg/RavenGraphics-Agency-1424916680897947/posts/" target="_blank"><img class="facebookicon" src="assets/icons/facebook.svg" width="80px"></a>
+                        </div>
+
                         <div class="copyright">
 						    <p class="copy"> Inge Verschatse ©2017</p>
 						    <p class="copy"> Deze site maakt deel uit van een schoolopdracht. </p>
